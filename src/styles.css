@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+/* font-family: 'Maven Pro', sans-serif; */
+
+/* 
+Primary Background: rgb(57, 61, 63)
+Secondary Background: rgb(98, 146, 158)
+Foreground: rgb(253, 253, 255)
+*/
+
+body {
+  background-color: rgb(57, 61, 63);
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  font-family: "Maven Pro", sans-serif;
+  color: rgb(253, 253, 255);
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 20%;
+  min-width: 200px;
+  margin: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+
+.project-card p {
+  font-size: 0.9em;
+  margin: 0.5em;
+}
+
+.project-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+}
+
+.popup {
+  position: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+}
+
+.popup-content {
+  position: relative;
+  background-color: rgb(57, 61, 63);
+  margin: 15% auto;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.slideshow img {
+  width: 80%;
+  max-height: 500px;
+  object-fit: contain;
+  margin: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.slideshow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow-controls button {
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.slideshow-controls button:hover {
+  color: #0070f3;
+}

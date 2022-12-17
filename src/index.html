@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./styles.css" rel="stylesheet" />
-    <script src="./index.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script type="module" src="./index.js"></script>
     <title>Alex Phillips</title>
   </head>
-  <body></body>
+  <body>
+    <div class="title">
+      <h1>Alex Phillips</h1>
+      <h3>Software Engineer</h3>
+    </div>
+
+    <div id="github-projects">
+      <h1>My GitHub Projects</h1>
+      <div class="projects-grid"></div>
+    </div>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-button">&times;</span>
+        <div class="slideshow">
+          <!-- Slideshow images go here -->
+        </div>
+        <h2>Project Title</h2>
+        <div class="description"></div>
+      </div>
+    </div>
+  </body>
 </html>
