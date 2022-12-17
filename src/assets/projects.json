@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project 1",
+    "thumbnail": "./assets/projects/thumbnail1.jpg",
+    "short_desc": "Short description of project 1",
+    "slideshow_imgs": [
+      "./assets/projects/project1_slide1.jpg",
+      "./assets/projects/project1_slide2.jpg"
+    ],
+    "long_desc": "Long description of project 1"
+  },
+
+  {
+    "title": "Project 2",
+    "thumbnail": "./assets/projects/thumbnail2.jpg",
+    "short_desc": "Short description of project 2",
+    "slideshow_imgs": [
+      "./assets/projects/project2_slide1.jpg",
+      "./assets/projects/project2_slide2.jpg"
+    ],
+    "long_desc": "Long description of project 2"
+  }
+]
