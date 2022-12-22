@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./styles.css" rel="stylesheet" />
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script type="module" src="./index.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
     <title>Alex Phillips</title>
   </head>
   <body>
-    <div class="title">
-      <h1>Alex Phillips</h1>
-      <h3>Software Engineer</h3>
-    </div>
+    <header>
+      <img src="assets/images/logo.png" alt="Alex Phillips" />
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div id="github-projects">
-      <h1>My GitHub Projects</h1>
-      <div class="projects-grid"></div>
-    </div>
+    <main>
+      <h1 class="title">Hi, I'm Alex Phillips</h1>
+      <h4>An aspiring software engineer.</h4>
+      <!-- download cv button  -->
+      <a class="dowload-cv" href="assets/files/Alex-Phillips-CV.pdf" download>
+        <button>Download CV</button>
+      </a>
+    </main>
 
-    <div id="popup" class="popup">
-      <div class="popup-content">
-        <span class="close-button">&times;</span>
-        <div class="slideshow">
-          <!-- Slideshow images go here -->
-        </div>
-        <h2>Project Title</h2>
-        <div class="description"></div>
-      </div>
-    </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
